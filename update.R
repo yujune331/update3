@@ -1,4 +1,4 @@
-custom_as_numeric <- function(x){1111
+custom_as_numeric <- function(x){
   tryCatch(
     {
     return (as.numeric(x))
