@@ -1,13 +1,13 @@
-custom_as_numeric <- function(x){
+custom_as_numeric <- function(x){1111
   tryCatch(
     {
     return (as.numeric(x))
     },
     warning = function(w) {
-      return("½Ð¤£­n¿é¤J¤å¦r¦V¶q¡C")
+      return("è«‹ä¸è¦è¼¸å…¥æ–‡å­—å‘é‡ã€‚")
     },
     error = function(e) {
-      return("§ä¤£¨ìª«¥ó¡C")
+      return("æ‰¾ä¸åˆ°ç‰©ä»¶ã€‚")
     }
   )
 }
